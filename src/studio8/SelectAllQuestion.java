@@ -12,8 +12,8 @@ public class SelectAllQuestion extends MultipleChoiceQuestion {
 	 * @param choices
 	 */
 	public SelectAllQuestion(String prompt, String answer, String[] choices) {
-		// Hint: 1 point per choice
-		throw new NotYetImplementedException();
+		super(prompt, answer, 1, choices);
+		
 	}
 	
 	/**
